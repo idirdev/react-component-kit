@@ -1,0 +1,27 @@
+{
+  "name": "@idirdev/react-component-kit",
+  "version": "2.0.0",
+  "description": "Reusable utility hooks and helpers mirroring React patterns — pure JS, no framework dependency.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test tests/"
+  },
+  "author": "idirdev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idirdev/react-component-kit.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "utilities",
+    "state",
+    "eventbus",
+    "store",
+    "pure-js"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
