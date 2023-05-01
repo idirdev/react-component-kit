@@ -1,0 +1,50 @@
+{
+  "name": "react-component-kit",
+  "version": "1.0.0",
+  "description": "A reusable React component library built with TypeScript and styled-components",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "jest --coverage",
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
+    "prepublishOnly": "npm run build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook -o .storybook-out"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "styled-components": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/styled-components": "^4.4.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1",
+    "typescript": "^3.7.0",
+    "@types/jest": "^24.0.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "typescript",
+    "styled-components",
+    "design-system"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
