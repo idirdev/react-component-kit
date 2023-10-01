@@ -300,3 +300,27 @@ npm test
 ## License
 
 MIT
+
+---
+
+## 🇫🇷 Documentation en français
+
+### Description
+react-component-kit est une bibliothèque de composants React réutilisables, construite avec TypeScript et styled-components. Elle est conçue pour accélérer le développement d'interfaces utilisateur grâce à des composants accessibles, composables et hautement personnalisables (Button, Input, Modal, Dropdown, Toast, Tabs, Avatar, Skeleton, etc.).
+
+### Installation
+```bash
+npm install react-component-kit
+```
+
+**Dépendances pair requises :**
+```bash
+npm install react@^16.8.0 react-dom@^16.8.0 styled-components@^4.4.0
+```
+
+### Utilisation
+```tsx
+import { Button, Input, Modal } from 'react-component-kit';
+```
+
+Importez les composants souhaités et intégrez-les dans votre application React. Consultez la documentation anglaise ci-dessus pour les exemples complets de chaque composant et les options de personnalisation du thème.
