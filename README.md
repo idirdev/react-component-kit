@@ -324,3 +324,4 @@ import { Button, Input, Modal } from 'react-component-kit';
 ```
 
 Importez les composants souhaités et intégrez-les dans votre application React. Consultez la documentation anglaise ci-dessus pour les exemples complets de chaque composant et les options de personnalisation du thème.
+
