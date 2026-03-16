@@ -23,5 +23,9 @@
   ],
   "engines": {
     "node": ">=16.0.0"
+  },
+  "homepage": "https://github.com/idirdev/react-component-kit",
+  "bugs": {
+    "url": "https://github.com/idirdev/react-component-kit/issues"
   }
 }
